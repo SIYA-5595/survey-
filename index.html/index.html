@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <style type="text/css">
+            body{
+                background-color: greenyellow;
+            }
+            .form-control{
+                text-align: left 
+                
+            }
+            form{
+                margin: 50px auto;
+                padding: 30px 30px;
+                max-width: 350px;
+            }
+            .check-box{
+                display: inline-block;
+                margin-right:130px;
+            }
+            .check-box
+        </style> 
+    </head>
+    <body>
+    <h1 style="text-align: center;">Codecrush survey form</h1>    
+    </body>
+
+    <form style="text-align: center;">
+        <fieldset>
+        <div class="form-control">
+        <label style="display: block; margin-bottom: 10px">Name</label>
+        <input type="text" name="Name" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="form-control">
+        <label style="display: block; margin-bottom: 10px">Email</label>
+        <input type="text" name="Name" placeholder="Enter your Email">
+        </div>
+        <br>
+        <div class="form-control">
+        <label style="display: block; margin-bottom: 10px">Age</label>
+        <input type="text" name="Name" placeholder="Enter your Age">
+        </div>                                                              
+        <br>
+        <div class="form-control">
+        <label style="display: block; margin-bottom: 10px">calender</label>
+        <input type="date">
+        </div><br> 
+        <div class="form-control">
+        <label style="display: block; margin-bottom: 10px">check box</label>
+        <input type="radio" name="mode" value="online">online
+        <input type="radio" name="mode" value="offline">offline
+        </div>
+        <br>
+        <div class="check-box">
+            <label>Select skills</label><br>
+        <input type="checkbox" id="HTML" name="skills" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="CSS" name="skills" value="CSS">
+        <label for="html">CSS</label>
+        <input type="checkbox" id="JS" name="skills" value="JS">
+        <label for="html">JS</label>
+
+        </div><br><br>
+
+        <div class="form-control">
+        <label style="display: block; margin-bottom: 10px">which option best describes you?</label>
+        <select>
+            <option>student</option>
+            <option>Intern</option>
+            <option>professional</option>
+            <option>other</option>                  
+                                                
+        </select>
+        </div>
+        <br>
+        <button type="submit"style="background-color:gray;color:white;">submit</button>
